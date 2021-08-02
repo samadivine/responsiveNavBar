@@ -1,0 +1,13 @@
+.PortfolioDiv {
+  background: url(../../../images/portfolio.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (max-width: 800px) {
+  .PortfolioDiv {
+    background-position: center right;
+  }
+}
